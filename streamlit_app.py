@@ -216,13 +216,16 @@ with st.sidebar:
 # Header
 st.title("Clasificador Automático de Textos según los ODS 🇺🇳")
 
-st.markdown(
-"Ingresa un texto sobre problemáticas sociales, ambientales o económicas "
-"y el modelo lo clasificará en uno de los **17 ODS**."
-"Ejemplo de textos"
-"Los niños de zonas rurales no tienen acceso a escuelas primarias, necesitamos más profesores y materiales educativos para garantizar su aprendizaje",
-"Las comunidades indígenas no cuentan con agua potable ni sistemas de saneamiento básico, lo que genera enfermedades gastrointestinales en los niños",
-)
+st.markdown("""
+Ingresa un texto sobre problemáticas sociales, ambientales o económicas  
+y el modelo lo clasificará en uno de los **17 ODS**.
+
+**Ejemplos de textos:**
+
+- Los niños de zonas rurales no tienen acceso a escuelas primarias, necesitamos más profesores y materiales educativos para garantizar su aprendizaje.
+
+- Las comunidades indígenas no cuentan con agua potable ni sistemas de saneamiento básico, lo que genera enfermedades gastrointestinales en los niños.
+""")
 
 pipeline, ruta_modelo = cargar_pipeline()
 
