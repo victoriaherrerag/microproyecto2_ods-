@@ -219,14 +219,9 @@ st.title("Clasificador Automático de Textos según los ODS 🇺🇳")
 st.markdown(
 "Ingresa un texto sobre problemáticas sociales, ambientales o económicas "
 "y el modelo lo clasificará en uno de los **17 ODS**."
-    ""Los niños de zonas rurales no tienen acceso a escuelas primarias, necesitamos más profesores y materiales educativos para garantizar su aprendizaje",
-    "Las comunidades indígenas no cuentan con agua potable ni sistemas de saneamiento básico, lo que genera enfermedades gastrointestinales en los niños",
-    "El aumento de la temperatura global está derritiendo los glaciares y causando fenómenos meteorológicos extremos como huracanes más intensos",
-    "Las mujeres aún ganan menos que los hombres por el mismo trabajo y tienen menor representación en puestos directivos de las empresas",
-    "En Bogotá hay Desafíos en la expansión de transporte masivo y desarrollo de vías regionales",
-    "Las familias en extrema pobreza no pueden cubrir sus necesidades básicas de alimentación, vivienda y salud, atrapadas en un ciclo intergeneracional",
-    "En leticia amazonas hay un incremento de la deforestación, minería ilegal de oro y tráfico de especies.",
-    "En algunos barrios de Cali, en el departamento del Valle del Cauca, muchos jóvenes enfrentan limitadas oportunidades educativas y laborales, lo que aumenta su vulnerabilidad frente al reclutamiento por grupos delictivos""
+"Ejemplo de textos"
+"Los niños de zonas rurales no tienen acceso a escuelas primarias, necesitamos más profesores y materiales educativos para garantizar su aprendizaje",
+"Las comunidades indígenas no cuentan con agua potable ni sistemas de saneamiento básico, lo que genera enfermedades gastrointestinales en los niños",
 )
 
 pipeline, ruta_modelo = cargar_pipeline()
