@@ -41,6 +41,7 @@ _TOKENIZER = RegexpTokenizer(r"\w+")
 def preprocesar_serie(textos):
     """
     Preprocesamiento usado durante el entrenamiento del modelo.
+    Es necesario para que joblib pueda reconstruir el pipeline.
     """
     resultado = []
 
